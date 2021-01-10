@@ -1,3 +1,3 @@
 export default [
-    {tag: '', dir: '', file: ''},
+    {tag: 'home-index', dir: './components/home/', file: 'index.vue'},
 ]
