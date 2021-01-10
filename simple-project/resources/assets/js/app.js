@@ -12,6 +12,7 @@ window.Vue = require('vue');
 import Vue from 'vue';
 
 import vue_routes from './components/vue_routes.js';
+import { store } from './store/store';
 
 Vue.use(vue_routes);
 /**
@@ -31,5 +32,6 @@ for(var i in vue_routes) {
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    store
 });
