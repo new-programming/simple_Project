@@ -29,8 +29,6 @@ for(var i in vue_routes) {
     Vue.component(tag, require('' + dir + file));
 }
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
-
 const app = new Vue({
     el: '#app',
     store
