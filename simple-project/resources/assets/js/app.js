@@ -31,5 +31,6 @@ for(var i in vue_routes) {
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    store
 });
