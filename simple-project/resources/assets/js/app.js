@@ -12,6 +12,7 @@ window.Vue = require('vue');
 import Vue from 'vue';
 
 import vue_routes from './components/vue_routes.js';
+import { store } from './store/store';
 
 Vue.use(vue_routes);
 /**
