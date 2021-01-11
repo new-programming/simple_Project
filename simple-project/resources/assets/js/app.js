@@ -5,7 +5,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+require('bootstrap');
 
 window.Vue = require('vue');
 
@@ -14,9 +14,14 @@ import VueI18n from 'vue-i18n';
 import messages from './config/messages';
 import vue_routes from './components/vue_routes.js';
 import { store } from './store/store';
+import PortalVue from 'portal-vue';
+import 'bootstrap/dist/css/bootstrap.css';
+import { createPopper } from '@popperjs/core';
 
+Vue.use(createPopper);
 Vue.use(vue_routes);
 Vue.use(VueI18n);
+Vue.use(PortalVue);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
