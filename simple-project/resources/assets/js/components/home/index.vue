@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <img src="image/circle-hero.png" alt="">
-                    <div class="hero__sub-circle"></div>
+                    <div class="p-hero__sub-circle"></div>
                 </div>
 
                 <div class="container p-services">
