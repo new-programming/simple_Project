@@ -1,17 +1,23 @@
-.header {
-  &.navbar {
-    background-color: black;
+.l-header {
+  position: relative;
+  z-index: 500;
+
+  &__inner.navbar {
+    background-color: $header-bg-color;
 
     .container-fluid {
+      .navbar-toggler {
+        background-color: white;
+      }
       .navbar-nav {
         .nav-item {
           .nav-link {
-            color: white;
+            color: $text-color;
           }
         }
       }
       .navbar-brand {
-        color: white;
+        color: $text-color;
       }
     }
   }

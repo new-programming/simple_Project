@@ -1,0 +1,11 @@
+.footer {
+  height: $footer-height;
+  color: $text-color;
+  text-align: center;
+
+  p {
+    line-height: $footer-height;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+  }
+}
