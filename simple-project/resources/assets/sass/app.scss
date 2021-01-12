@@ -1,8 +1,21 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-// Variables
+// Variables Bases
 @import "foundation/variables";
+@import "./foundation/base";
+@import "./foundation/mixin";
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// layout
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
+//component
+@import "./object/component/button.scss";
+@import "./object/component/main.scss";
+
+//project
+@import "./object/project/home.scss";
